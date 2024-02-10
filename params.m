@@ -24,9 +24,11 @@ std_dev = 1; % Gaussian Estimation error (Human Observing Robot's state)
 %% Simulation Parameters
 
 delta_T = 0.2;
-T_sim = 15;
+T_sim = 10;
 
 grid_size = 10; % square
 
 numSimulations = 1; % no of trajectories
-logTrajectories = 0 ; % 0 or 1
+% logTrajectories = 0 ; % 0 or 1
+
+goal_reach_dist = 0.2;
